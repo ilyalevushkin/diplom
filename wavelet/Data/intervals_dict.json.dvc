@@ -1,0 +1,4 @@
+outs:
+- md5: 80b77c7252da86ab61198dbab1512747
+  size: 808
+  path: intervals_dict.json

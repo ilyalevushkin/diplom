@@ -2,3 +2,5 @@
 /test_data
 /markups.csv
 /markups.json
+/linear_no_balanced_3000_full.pkl
+/linear_not_balanced.pkl
