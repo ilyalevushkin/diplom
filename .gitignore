@@ -11,3 +11,10 @@
 *.csv
 *.mp3
 /.dvc/tmp
+/prog/Data
+/wavelet/Data/audio_data
+/wavelet/Data/test_data
+/wavelet/example_Data
+*.mp3
+*.json
+*.csv
