@@ -4,3 +4,10 @@
 *.out
 *.synctex.gz
 *.DS_Store
+/prog/Data
+/wavelet/audio_data
+/wavelet/test_data
+*.json
+*.csv
+*.mp3
+/.dvc/tmp
