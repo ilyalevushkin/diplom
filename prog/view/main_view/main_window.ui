@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Выделение звуков естественного языка звучащей речи</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Настройка модели классификации</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="choose_model_button">
+           <property name="text">
+            <string>Выбрать модель
+классификации</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="teach_model_button">
+           <property name="text">
+            <string>Обучить модель
+классификации</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="save_model_button">
+           <property name="text">
+            <string>Сохранить модель
+классификации</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="clear_model_button">
+           <property name="text">
+            <string>Очистить модель
+классификации</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="choose_model_label">
+         <property name="text">
+          <string>Модель не выбрана</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>Выбор аудио-файла для тестирования</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="choose_test_audio_button">
+         <property name="text">
+          <string>Выбрать аудио-файл</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="choose_test_audio_label">
+         <property name="text">
+          <string>Аудио-файл не выбран</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="get_result_button">
+      <property name="text">
+       <string>Определить границы
+межфонемных переходов
+в звучащей речи в сигнале</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

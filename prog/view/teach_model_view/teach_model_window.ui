@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>295</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Обучение модели классификации</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Выбор аудио-файлов для обучения</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPushButton" name="choose_fit_audio_button">
+          <property name="text">
+           <string>Выбрать аудио-файлы
+для обучения</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="choose_fit_audio_label">
+          <property name="text">
+           <string>Файлы не выбраны</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>Выбор разметки для обучения</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="choose_fit_markups_button">
+          <property name="text">
+           <string>Выбрать разметку
+для обучения</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="choose_fit_markups_label">
+          <property name="text">
+           <string>Разметка не выбрана</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>Обучение модели</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="fit_model_button">
+        <property name="text">
+         <string>Обучить модель</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="fit_model_label">
+        <property name="text">
+         <string>Модель не обучена</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="close_button">
+     <property name="text">
+      <string>ОК</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
